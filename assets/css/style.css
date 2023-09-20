@@ -139,19 +139,19 @@
 
     .message-input-box{
       background: #fff;
-      padding: 10px 5px;
+      padding: 5px;
       position: relative;
     }
     .message-input-box textarea{
       width: 100%;
-      padding: 10px 10px;
-      border: 1px solid #cccccc;
+      padding: 10px 23px 10px 10px;
+      border: none;
       border-radius: 2px;
     }
     .message-input-box a{
       position: absolute;
       right: 20px;
-      top: 20px;
+      top: 15px;
       color: var(--primary-color);
       font-size: 18px;
     }
