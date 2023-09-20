@@ -144,7 +144,7 @@
     }
     .message-input-box textarea{
       width: 100%;
-      padding: 10px 23px 10px 10px;
+      padding: 10px 25px 10px 10px;
       border: none;
       border-radius: 2px;
     }
@@ -157,6 +157,21 @@
     }
     .message-input-box textarea:focus{
       outline: none;
+    }
+    
+    /* width */
+    textarea::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    /* Track */
+    textarea::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    textarea::-webkit-scrollbar-thumb {
+      background: #888;
     }
 
 
