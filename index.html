@@ -20,7 +20,9 @@
 
           <div id="chat-circle" class="btn btn-raised">
             <div id="chat-overlay"></div>
-            <a id="live-chat-button"><img src="assets/images/live-chat.png" alt=""></a>
+            <a id="live-chat-button" class="live-chat-button">
+              <i class="fa-solid fa-message"></i>
+            </a>
           </div>
 
           <div class="chat-box">
@@ -30,10 +32,11 @@
               </div>
               <p class="chat-box-toggle m-0"><i class="fa fa-times"></i></p>
             </div>
-            <div class="chat-box-body">
+
+            <div id="chat-box" class="chat-box-body d-none">
               <div class="chat-box-overlay"></div>
               <div class="chat-logs position-relative">
-                <div class="chat-list-section">
+                <div class="chat-list-section ">
                   <div class="right-chat">
                     <div class="right-chat-design">
                       <span>hi</span>
@@ -115,11 +118,25 @@
 
                 </div>
 
-              </div>
               <!--chat-log -->
             </div>
+          </div>
 
-            <div class="message-input-box">
+
+          <div id="user-details-box" class="chat-box-body user-details-collect">
+            <div class="chat-logs-user-detais">
+              <label for="user-name"></label>
+              <input type="text" name="user-name" id="" placeholder="Type Your Name" class="">
+
+              <label for="user-email"></label>
+              <input type="email" name="user-name" id="" placeholder="Type Your E-mail" class="">
+              <button id="start-chat"><i class="fa-regular fa-paper-plane"></i> Start Chat</button>
+            </div>
+          </div>
+
+
+
+            <div id="message-input" class="message-input-box d-none">
               <textarea name="" id="" rows="1" placeholder="Type Message & hit enter"></textarea>
               <a href=""><i class="fa-regular fa-paper-plane"></i></a>
             </div>

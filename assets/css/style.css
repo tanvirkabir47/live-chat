@@ -39,8 +39,13 @@
         border-radius: 50%;
         display: none;
     }
-
-
+    .live-chat-button i{
+      color: #fff;
+      font-size: 30px;
+      background: var(--primary-color);
+      padding: 15px;
+      border-radius: 50%;
+    }
     .chat-box {
       display:none;
       background: #efefef;
@@ -96,6 +101,10 @@
       padding:15px; 
       height:450px;
       overflow-y:scroll;
+    }
+    .chat-logs-user-detais {
+      padding:15px; 
+      height:220px;
     }
 
     .right-chat{
@@ -175,6 +184,24 @@
     }
 
 
+    .user-details-collect input{
+      width: 100%;
+      border-radius: 5px;
+      padding: 5px 10px;
+      border: 1px solid #d9dbe4;
+    }
+    .user-details-collect input:focus{
+      outline: 1px solid var(--primary-color);
+    }
+    .user-details-collect button{
+      background: var(--primary-color);
+      padding: 5px 10px;
+      border: none;
+      color: #fff;
+      margin: 20px auto;
+      width: 100%;
+      border-radius: 5px;
+    }
 
     @media only screen and (max-width: 500px) {
       .chat-logs {
